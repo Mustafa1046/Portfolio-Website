@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth focus:scroll-auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa Devopler</title>
+    <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind CSS Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Main CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-[#191F36]">
+    <!-- Header Design -->
+    <header class="header z-10  fixed w-full bg-[#191F36] shadow-md shadow-sky-400 ">
+        <div class="bg-[#191F36] text-white flex justify-around items-center p-6 right-0">
+
+            <div>
+                <a href="#" class="logo font-bold text-xl">Ghulam Mustafa </a>
+                <i class="fa-solid fa-bars text-white text-xl hidden" id="menu_icon"></i>
+            </div>
+
+            <div class="navba ml-20">
+                <ul class="flex space-x-10 text-base font-bold">
+                    <li><a href="#home" class=" active hover:text-sky-400">Home</a></li>
+                    <li><a href="#about" class="hover:text-sky-400">About</a></li>
+                    <li><a href="#services" class="hover:text-sky-400">Services</a></li>
+                    <li><a href="#skills" class="hover:text-sky-400">Skills</a></li>
+                    <li><a href="#portfolio" class="hover:text-sky-400">Portfolio</a></li>
+                    <li><a href="#contact" class="hover:text-sky-400">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Home Section Design -->
+    <section class="home flex justify-center items-center bg-[#191F36] text-white h-screen p-20" id="home">
+        <div class="home-content mt-44 w-[800px]">
+            <h3 class="text-4xl font-bold">Hi, Myself</h3>
+            <h1 class="text-5xl font-bold leading-tight">Ghulam Mustafa</h1>
+            <h3 class="mb-4 text-4xl font-bold">And I'm a <span class="text-[#59B2F4]">Frontend Devopler</span></h3>
+            <p class="text-lg">I am from Pakistan.I am a full stack Web Developer. I have 1 year experience in web
+                development. I can make a dynamic website using React JS. I use Node JS as a backend language. I
+                completed many projects.
+            </p>
+            <div class="social-media">
+                <a href="#facebook"
+                    class="btn inline-flex justify-center items-center w-10 h-10 bg-transparent rounded-full border border-sky-400 mx-2 my-4 hover:bg-[#59B2F4] hover:text-[#191F36] text-xl   text-[#59B2F4] rounded"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="#twitter"
+                    class="btn inline-flex justify-center items-center w-10 h-10 bg-transparent rounded-full border border-sky-400 mx-2 my-4 hover:bg-[#59B2F4] hover:text-[#191F36] text-xl   text-[#59B2F4] rounded"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a href="#intagram"
+                    class="btn inline-flex justify-center items-center w-10 h-10 bg-transparent rounded-full border border-sky-400 mx-2 my-4 hover:bg-[#59B2F4] hover:text-[#191F36] text-xl   text-[#59B2F4] rounded"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="#linkedin"
+                    class="btn inline-flex justify-center items-center w-10 h-10 bg-transparent rounded-full border border-sky-400 mx-2 my-4 hover:bg-[#59B2F4] hover:text-[#191F36] text-xl   text-[#59B2F4] rounded"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn mt-8 rounded-2xl inline-flex bg-[#59B2F4] px-4 py-2 text-[#191F36]">
+                Download CV</a>
+        </div>
+        <div class=" home_img w-[600px] mt-48">
+            <img class="btn rounded-full bg-[#59B2F4] object-top ml-20" src="./img/main.png" alt="main">
+        </div>
+    </section>
+
+
+    <!-- About Section Design -->
+    <section class="about flex h-screen justify-center items-center bg-[#191F36] gap-14 p-20" id="about">
+        <div class="about-img w-[600px] ml-20">
+            <img class=" btn bg-[#59B2F4] object-top rounded-2xl object-fill hover:scale-95 duration-500 ease-in-out"
+                src="./img/main.png" alt="about">
+        </div>
+        <div class="about-content text-white w-full">
+            <h2 class="heading mb-10 font-bold text-white text-4xl items-left leading-tight">ABOUT <span
+                    class="text-[#59B2F4]">Me</span>
+            </h2>
+
+            <h3 class="text-2xl mb-4">Frontend Devopler</h3>
+            <p class="text-base">I am from Pakistan.I am a full stack Web Developer. I have 1 year experience in web
+                development. I can make a dynamic website using React JS. I use Node JS as a backend language. I
+                completed many projects.</p>
+            <a href="#"
+                class="btn inline-block mt-8 px-4 py-2 bg-blue-400 rounded-2xl transition duration-500 ease-in-out text-[#191F36]">Read
+                More</a>
+        </div>
+    </section>
+
+
+    <!-- Services Section Design -->
+    <section class="services h-screen p-10 bg-[#191F36] " id="services">
+        <h2 class="heading font-bold text-white text-4xl items-left leading-tight p-24 ">My <span
+                class="text-[#59B2F4] ">Services</span></h2>
+
+        <div class="services-content flex justify-center items-center flex-wrap	gap-10 p-8 flex-wrap">
+            <div
+                class="btn services-box flex-1 items-center rounded-2xl py-6 px-6 border bg-[#262840] hover:border-sky-400 text-white text-center scale-95 duration-500 ease-in-out hover:scale-100">
+                <i class="fa-solid fa-code text-6xl text-[#59B2F4]"></i>
+                <h3 class="text-3xl mt-2 mb-2">Web Development</h3>
+                <p class="text-base">I can make a dynamic website using React JS. I use Node JS as a backend
+                    language.completed many projects.
+                </p>
+                <a href="#"
+                    class="btn inline-block mt-8 px-4 py-2 bg-blue-400 rounded-2xl transition duration-500 ease-in-out text-[#191F36]">Read
+                    More</a>
+            </div>
+            <div
+                class="btn services-box flex-1 items-center rounded-2xl py-6 px-6 border bg-[#262840] hover:border-sky-400 text-white text-center scale-95 duration-500 ease-in-out hover:scale-100">
+                <i class="fa-solid fa-palette text-6xl text-[#59B2F4]"></i>
+                <h3 class="text-3xl mt-2 mb-2">UI/UX Design</h3>
+                <p class="text-base">I can make a dynamic website using React JS. I use Node JS as a backend
+                    language.completed many projects.
+                </p>
+                <a href="#"
+                    class="btn inline-block mt-8 px-4 py-2 bg-blue-400 rounded-2xl transition duration-500 ease-in-out text-[#191F36]">Read
+                    More</a>
+            </div>
+
+            <div
+                class=" btn services-box flex-1 items-center rounded-2xl py-6 px-6 border bg-[#262840] hover:border-sky-400 text-white text-center scale-95 duration-500 ease-in-out hover:scale-100">
+                <i class="fa-brands fa-android text-6xl text-[#59B2F4]"></i>
+                <h3 class="text-3xl mt-2 mb-2">App Development</h3>
+                <p class="text-base">I can make a dynamic website using React JS. I use Node JS as a backend
+                    language.completed many projects.
+                </p>
+                <a href="#"
+                    class="btn inline-block mt-8 px-4 py-2 bg-blue-400 rounded-2xl transition duration-500 ease-in-out text-[#191F36]">Read
+                    More</a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Skills Section Design -->
+
+    <section class="Skills h-screen p-10 bg-[#191F36] " id="skills">
+        <h2 class="heading  font-bold text-white text-4xl items-center text-center leading-tight p-16 ">My <span
+                class="text-[#59B2F4]">Skills</span></h2>
+        <div class="skills_container flex justify-around items-center p-6">
+            <div>
+                <h2 class="skills__subtitle text-3xl text-white mb-8">Profesional Skills</h2>
+                <p class="skills__text text-white w-[500px] mb-8  text-lg">Having a good Experince in Development field
+                    with Backend and Frontend
+                    Development as well in Database Management like SQL Database and NoSQL Database.</p>
+                <div class="skills__data bg-white  mb-4 rounded-lg ">
+                    <div class="skills__names  flex space-x-4 flex items-center px-3">
+                        <i class="fa-brands fa-html5 text-2xl"></i>
+                        <span class="skills__name font-bold ">HTML5</span>
+                    </div>
+                    <div class="skills__bar skills__html w-[95%] bg-blue-400 h-2 rounded-2xl flex justify-end">
+                        <div class=" relative bottom-6">
+                            <span class="skills__percentag">95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__data bg-white  mb-4 rounded-lg">
+                    <div class="skills__names  flex space-x-4 flex items-center px-3">
+                        <i class="fa-brands fa-css3-alt text-2xl"></i>
+                        <span class="skills__name font-bold ">CSS3</span>
+                    </div>
+                    <div class="skills__bar skills__css w-[85%] bg-blue-400 h-2 rounded-2xl flex justify-end">
+                        <div class="relative bottom-6">
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__data bg-white  mb-4 rounded-lg">
+                    <div class="skills__names  flex space-x-4 flex items-center px-3">
+                        <i class="fa-brands fa-js text-2xl"></i>
+                        <span class="skills__name font-bold ">JAVASCRIPT</span>
+                    </div>
+                    <div class="skills__bar skills__js w-[75%] bg-blue-400 h-2 rounded-2xl flex justify-end">
+                        <div class="relative bottom-6">
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__data bg-white  mb-4 rounded-lg">
+                    <div class="skills__names  flex space-x-4 flex items-center px-3">
+                        <i class="fa-solid fa-paintbrush text-2xl"></i>
+                        <span class="skills__name font-bold">UX/UI</span>
+                    </div>
+                    <div class="skills__bar skills__ux w-[85%] bg-blue-400 h-2 rounded-2xl flex justify-end">
+                        <div class="relative bottom-6 ">
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[550px] object-fill object-top h-[550x] px-8">
+                <img src="./img/5.jpg" alt="skills_img"
+                    class="btn hover:scale-95 transition ease-in-out duration-500 skills_img  rounded-2xl ">
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section Design -->
+    <section class="portfolio bg-[#191F36] h-full p-24" id="portfolio">
+        <h2 class="heading  font-bold text-white text-4xl items-center text-center leading-tight mb-16 ">Lates <span
+                class="text-[#59B2F4]">Project</span></h2>
+        <div class="portfolio_container w-full grid grid-cols-3 items-center gap-8 px-20 p-8 ">
+            <div class="portfolio_box relative rounded-2xl btn overflow-hidden flex  ">
+                <img src="./img/1.jpg" alt="portfolio" class=" w-full hover:scale-110 ">
+                <div
+                    class="portfolio_layer absolute bottom-0 left-0 w-full h-full  flex justify-center items-center flex-col text-center p-4">
+                    <h1 class="text-2xl">Web Design</h1>
+                    <p class="text-lg m-3">
+                        I can make a dynamic website using React JS. I use Node JS as a backend language. Completed many
+                        projects.
+                    </p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio_box relative rounded-2xl btn overflow-hidden flex ">
+                <img src="./img/6.jpg" alt="portfolio" class=" w-full hover:scale-110">
+                <div
+                    class="portfolio_layer absolute bottom-0 left-0 w-full h-full  flex justify-center items-center flex-col text-center p-4">
+                    <h1 class="text-2xl">Web Design</h1>
+                    <p class="text-lg m-3">
+                        I can make a dynamic website using React JS. I use Node JS as a backend language. Completed many
+                        projects.
+                    </p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio_box relative rounded-2xl btn overflow-hidden flex ">
+                <img src="./img/2.jpg" alt="portfolio" class=" w-full hover:scale-110">
+                <div
+                    class="portfolio_layer absolute bottom-0 left-0 w-full h-full  flex justify-center items-center flex-col text-center p-4">
+                    <h1 class="text-2xl">Web Design</h1>
+                    <p class="text-lg m-3">
+                        I can make a dynamic website using React JS. I use Node JS as a backend language. Completed many
+                        projects.
+                    </p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio_box relative rounded-2xl btn overflow-hidden flex ">
+                <img src="./img/3.jpg" alt="portfolio" class=" w-full hover:scale-110">
+                <div
+                    class="portfolio_layer absolute bottom-0 left-0 w-full h-full  flex justify-center items-center flex-col text-center p-4">
+                    <h1 class="text-2xl">Web Design</h1>
+                    <p class="text-lg m-3">
+                        I can make a dynamic website using React JS. I use Node JS as a backend language. Completed many
+                        projects.
+                    </p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio_box relative rounded-2xl btn overflow-hidden flex ">
+                <img src="./img/4.jpg" alt="portfolio" class=" w-full hover:scale-110">
+                <div
+                    class="portfolio_layer absolute bottom-0 left-0 w-full h-full  flex justify-center items-center flex-col text-center p-4">
+                    <h1 class="text-2xl">Web Design</h1>
+                    <p class="text-lg m-3">
+                        I can make a dynamic website using React JS. I use Node JS as a backend language. Completed many
+                        projects.
+                    </p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio_box relative rounded-2xl btn overflow-hidden flex ">
+                <img src="./img/5.jpg" alt="portfolio" class=" w-full hover:scale-110">
+                <div
+                    class="portfolio_layer absolute bottom-0 left-0 w-full h-full  flex justify-center items-center flex-col text-center p-4">
+                    <h1 class="text-2xl">Web Design</h1>
+                    <p class="text-lg m-3">
+                        I can make a dynamic website using React JS. I use Node JS as a backend language. Completed many
+                        projects.
+                    </p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact  h-full p-24 " id="contact">
+        <h2 class="heading  font-bold text-white text-4xl items-center text-center leading-tight mb-16 ">Contact <span
+                class="text-[#59B2F4]">Me</span></h2>
+        <form action="#" class="max-w-1/2 mx-8 my-auto text-center mb-12">
+            <div class="input_box flex justify-between flex-wrap w-full ">
+                <input type="text" placeholder="Full Name"
+                    class=" w-[48%] p-5 text-[#ffff] bg-[#262840] rounded-2xl mx-1 my-1  ">
+                <input type="email" placeholder="Email Address"
+                    class=" w-[48%] p-5 text-[#ffff] bg-[#262840] rounded-2xl mx-1 my-1  ">
+            </div>
+            <div class="input_box flex justify-between flex-wrap w-full">
+                <input type="number" placeholder="Phone Number"
+                    class="w-[48%]  p-5 text-[#ffff] bg-[#262840] rounded-2xl mx-1 my-2  ">
+                <input type="text" placeholder="Email Subject"
+                    class="w-[48%]  p-5 text-[#ffff] bg-[#262840] rounded-2xl mx-1 my-2  ">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"
+                class=" w-full p-5 h-40 text-[#ffff] bg-[#262840] rounded-2xl mx-1 my-2 resize-none"></textarea>
+            <input type="submit" value="Send Message"
+                class="btn mt-8 rounded-2xl inline-flex bg-[#59B2F4] px-4 py-2 text-[#191F36]">
+        </form>
+    </section>
+    <!-- Footer Section Design -->
+    <footer class="footer  w-full bg-[#262840] " id="footer">
+        <div class="social-media  text-center flex justify-around p-4">
+           <div>
+            <h1 class="text-3xl font-bold text-white px-10 py-4 ">Portfolio</h1>
+           </div>
+            <div>
+                <a href="#footer"
+                class="btn inline-flex justify-center items-center w-10 h-10 bg-transparent rounded-full border border-sky-400 mx-2 my-4 hover:bg-[#59B2F4] hover:text-[#191F36] text-xl   text-[#59B2F4] rounded"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="#twitter"
+                class="btn inline-flex justify-center items-center w-10 h-10 bg-transparent rounded-full border border-sky-400 mx-2 my-4 hover:bg-[#59B2F4] hover:text-[#191F36] text-xl   text-[#59B2F4] rounded"><i
+                    class="fa-brands fa-twitter"></i></a>
+            <a href="#intagram"
+                class="btn inline-flex justify-center items-center w-10 h-10 bg-transparent rounded-full border border-sky-400 mx-2 my-4 hover:bg-[#59B2F4] hover:text-[#191F36] text-xl   text-[#59B2F4] rounded"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="#linkedin"
+                class="btn inline-flex justify-center items-center w-10 h-10 bg-transparent rounded-full border border-sky-400 mx-2 my-4 hover:bg-[#59B2F4] hover:text-[#191F36] text-xl   text-[#59B2F4] rounded"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div>
+            <p class="text-white text-center text-sm p-4">&copy; Copyright 2024.
+                <span class="text-[#59B2F4] ">Ghulam Mustafa</span>
+            </p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

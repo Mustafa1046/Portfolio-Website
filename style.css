@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.home_img img {
+  animation: float 4s ease infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.btn{
+  box-shadow: 0 0 1rem #59b2f4;
+}
+.btn:hover{
+  box-shadow: none;
+}
+.portfolio_box >img{
+  transition: .5s ease;
+}
+.portfolio_box .portfolio_layer{
+  background: linear-gradient(rgba(0, 0, 0,0),#59b2f4);
+  transform: translateY(100%);
+  transition: .5s ease;
+}
+.portfolio_box:hover .portfolio_layer{
+transform: translateY(0);
+
+}
